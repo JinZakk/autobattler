@@ -9,6 +9,7 @@ using UnityEngine;
 public class Drag : MonoBehaviour
 
 {
+    //https://answers.unity.com/questions/945153/dragging-a-3d-object-and-limiting-its-y-position.html
     void OnMouseDrag()
 
     {
