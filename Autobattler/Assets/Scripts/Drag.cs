@@ -62,7 +62,7 @@ public class Drag : MonoBehaviour {
         }
     }
 
-    void PointDetected(string pointDetected)
+    private void PointDetected(string pointDetected)
     {
         moveHere = GameObject.Find(pointDetected).transform.position;
     }
